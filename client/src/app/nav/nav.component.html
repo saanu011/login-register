@@ -1,0 +1,10 @@
+<div class="container">
+  <a  class="logo">{{ title }}</a>
+  <ul>
+      <button *ngIf="authservice.isLoggednIn()" routerLink="/profile" >profile</button>
+
+      <button *ngIf="!authservice.isLoggednIn()" routerLink="/login" >log in</button>
+      <button *ngIf="!authservice.isLoggednIn()" routerLink="/signup" >sign up</button>
+      <button *ngIf="authservice.isLoggednIn()" (click)="onclickLogout()">log out</button>
+  </ul>
+</div>

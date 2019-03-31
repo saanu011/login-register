@@ -1,0 +1,30 @@
+.container {
+    display: inline-block;
+    background: rgb(0, 102, 255);
+    height: 10%;
+    width: 100%
+}
+ul {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-right: 20px;
+    justify-self: right;
+}
+button:hover, li:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    background: rgb(43, 135, 255);
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 20px;  
+}
+button {
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(43, 135, 255);
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    transition: all .1s ease-in-out; 
+}
