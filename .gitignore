@@ -1,7 +1,7 @@
-/media/saanu/xyz1/Movies/userprofile/node_modules
+node_modules/
 
-/media/saanu/xyz1/Movies/userprofile/client/node_modules
+client/node_modules/
 
-/media/saanu/xyz1/Movies/userprofile/client/dist
+client/dist/
 
-/media/saanu/xyz1/Movies/userprofile/client/e2e
+client/e2e/
